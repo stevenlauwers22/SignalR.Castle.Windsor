@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SignalR.Castle.Windsor.Sample</id>
+    <version>1.0.0</version>
+    <title>SignalR.Castle.Windsor.Sample</title>
+    <authors>Steven Lauwers</authors>
+    <owners>Steven Lauwers</owners>
+    <description>Sample application that demonstrates the integration between SignalR and Castle.Windsor.</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/stevenlauwers22/SignalR.Castle.Windsor/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="Castle.Windsor" version="3.1.0" />
+      <dependency id="Microsoft.AspNet.SignalR" version="1.0.0" />
+      <dependency id="SignalR.Castle.Windsor" version="1.0.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net40" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework="net40" />
+    </frameworkAssemblies>
+    <tags>SignalR Castle Windsor</tags>
+  </metadata>
+  <files>
+    <file src="Chat.aspx" target="Content" />
+    <file src="Chat.aspx.cs" target="Content" />
+    <file src="Chat.aspx.designer.cs" target="Content" />
+    <file src="ChatHub.cs" target="Content" />
+    <file src="Global.asax" target="Content" />
+    <file src="Global.asax.cs" target="Content" />
+  </files>
+</package>
