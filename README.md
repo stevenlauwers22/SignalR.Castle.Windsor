@@ -1,9 +1,9 @@
-#SignalR.Castle.Windsor
+#SignalR.Castle.Windsor - prerelease
 
 ---
 
-### Instal it
-* From NuGet: `Install-Package SignalR.Castle.Windsor`
+### Install it
+* From NuGet: `Install-Package SignalR.Castle.Windsor -Pre`
 * Add [this class](https://raw.github.com/stevenlauwers22/SignalR.Castle.Windsor/master/Source/SignalR.Castle.Windsor/WindsorDependencyResolver.cs) to your code
 
 ### Register it
