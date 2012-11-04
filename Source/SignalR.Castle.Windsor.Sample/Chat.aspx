@@ -6,7 +6,7 @@
     
     <head>
         
-        <title>Glimpse.SignalR.Sample</title>
+        <title>SignalR.Castle.Windsor.Sample</title>
 
     </head>
 
