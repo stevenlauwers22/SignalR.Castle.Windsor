@@ -14,7 +14,7 @@ namespace SignalR.Castle.Windsor
         {
             if (container == null)
                 throw new ArgumentNullException("container");
-
+            
             _container = container;
         }
 
