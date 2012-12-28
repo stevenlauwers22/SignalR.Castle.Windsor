@@ -28,10 +28,17 @@ task build -depends clean {
 
 task package -depends build {
     "Creating SignalR.Castle.Windsor.nupkg"
-    exec { & $tools_dir\NuGet.CommandLine.2.1.0\tools\nuget.exe pack  $source_dir\SignalR.Castle.Windsor\Package.nuspec -OutputDirectory $build_dir }
+    exec { & $tools_dir\NuGet.CommandLine.2.1.0\tools\nuget.exe pack $source_dir\SignalR.Castle.Windsor\Package.nuspec -OutputDirectory $build_dir }
 
     "Creating SignalR.Castle.Windsor.Sample.nupkg"
-    exec { & $tools_dir\NuGet.CommandLine.2.1.0\tools\nuget.exe pack  $source_dir\SignalR.Castle.Windsor.Sample\Package.nuspec -OutputDirectory $build_dir }
+    exec { & $tools_dir\NuGet.CommandLine.2.1.0\tools\nuget.exe pack $source_dir\SignalR.Castle.Windsor.Sample\Package.nuspec -OutputDirectory $build_dir }
+}
+
+task publish {
+    "Publishing SignalR.Castle.Windsor.nupkg"
+    $apiKey = Read-Host 'Enter your API key: '
+    $version = Read-Host 'Enter the number of the version you want to pubilsh: '
+    exec { & $tools_dir\NuGet.CommandLine.2.1.0\tools\nuget.exe push $build_dir\SignalR.Castle.Windsor.$version.nupkg $apiKey }
 }
 
 #functions ---------------------------------------------------------------------------------------------------------
