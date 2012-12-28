@@ -20,7 +20,7 @@ namespace SignalR.Castle.Windsor.Sample.App_Start
                     Component
                         .For<IMessageBus>()
                         .UsingFactoryMethod(k => new MessageBusDecorator(new MessageBus(GlobalHost.DependencyResolver)))
-                        .LifestyleTransient());
+                        .LifestyleSingleton());
 
             GlobalHost.DependencyResolver = new WindsorDependencyResolver(container);
 

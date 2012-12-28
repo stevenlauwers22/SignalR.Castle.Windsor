@@ -23,7 +23,7 @@ task clean {
 
 task build -depends clean {
     "Building SignalR.Castle.Windsor.sln"
-    exec { msbuild $base_dir\SignalR.Castle.Windsor.sln /p:Configuration=Release }
+    exec { msbuild $source_dir\SignalR.Castle.Windsor.sln /p:Configuration=Release }
 }
 
 task package -depends build {
