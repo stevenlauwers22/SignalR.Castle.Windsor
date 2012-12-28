@@ -37,7 +37,7 @@ task package -depends build {
 task publish {
     "Publishing SignalR.Castle.Windsor.nupkg"
     $apiKey = Read-Host 'Enter your API key: '
-    $version = Read-Host 'Enter the number of the version you want to pubilsh: '
+    $version = Read-Host 'Enter the number of the version you want to publish: '
     exec { & $tools_dir\NuGet.CommandLine.2.1.0\tools\nuget.exe push $build_dir\SignalR.Castle.Windsor.$version.nupkg $apiKey }
 }
 
