@@ -3,6 +3,7 @@ using System.Web.Routing;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 using Microsoft.AspNet.SignalR;
+using Microsoft.AspNet.SignalR.Messaging;
 using SignalR.Castle.Windsor.Sample.App_Start;
 
 [assembly: PreApplicationStartMethod(typeof(RegisterHubs), "Start")]
