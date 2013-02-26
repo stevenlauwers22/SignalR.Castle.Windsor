@@ -1,4 +1,4 @@
-#SignalR.Castle.Windsor - prerelease
+#Castle Windsor integration for SignalR
 
 ---
 
