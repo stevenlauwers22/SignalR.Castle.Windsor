@@ -1,14 +1,14 @@
+/SignalR.Castle.Windsor/obj
+/SignalR.Castle.Windsor/bin
+/SignalR.Castle.Windsor/SignalR.Castle.Windsor.csproj.user
 
-/Source/SignalR.Castle.Windsor.ncrunchsolution
-/Source/SignalR.Castle.Windsor.suo
-/Source/SignalR.Castle.Windsor.v11.suo
-/Source/SignalR.Castle.Windsor.Sample/SignalR.Castle.Windsor.Sample.csproj.user
-/Source/SignalR.Castle.Windsor/obj
-/Source/SignalR.Castle.Windsor/bin
-/Source/_ReSharper.SignalR.Castle.Windsor
-/Source/SignalR.Castle.Windsor/SignalR.Castle.Windsor.csproj.user
-/Source/SignalR.Castle.Windsor.Sample/bin
-/Source/SignalR.Castle.Windsor.Sample/obj
-/Source/SignalR.Castle.Windsor.ncrunchsolution.user
-/Source/SignalR.Castle.Windsor.sln.DotSettings.user
-/NuGet - API key.txt
+/SignalR.Castle.Windsor.Sample/bin
+/SignalR.Castle.Windsor.Sample/obj
+/SignalR.Castle.Windsor.Sample/SignalR.Castle.Windsor.Sample.csproj.user
+
+/SignalR.Castle.Windsor.ncrunchsolution.user
+/SignalR.Castle.Windsor.ncrunchsolution
+/SignalR.Castle.Windsor.sln.DotSettings.user
+/SignalR.Castle.Windsor.suo
+/SignalR.Castle.Windsor.v11.suo
+/SignalR.Castle.Windsor.v12.suo
