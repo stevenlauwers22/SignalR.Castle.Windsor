@@ -13,7 +13,7 @@
     <body>
 
         <script src="Scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
-        <script src="Scripts/jquery.signalR-1.0.0-rc2.min.js" type="text/javascript"></script>
+        <script src="Scripts/jquery.signalR-2.1.1.min.js" type="text/javascript"></script>
         <script src="<%: ResolveClientUrl("~/signalr/hubs") %>" type="text/javascript"></script>
         <script type="text/javascript">
             $(function () {

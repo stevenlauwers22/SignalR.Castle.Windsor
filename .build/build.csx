@@ -48,7 +48,7 @@ dotNetBuild.AddTarget("buildRelease", "Build in release mode", c
             var solutionDirectory = context.ConfigurationSettings.Get<String>("SolutionDirectory");
 			var msBuildTask = new MsBuildTask
 			{
-				Project = Path.Combine(solutionDirectory, "Glimpse.Elmah.sln"),
+				Project = Path.Combine(solutionDirectory, "SignalR.Castle.Windsor.sln"),
 				Target = "Rebuild",
 				Parameters = "Configuration=Release"
 			};
