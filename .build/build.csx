@@ -16,7 +16,7 @@ dotNetBuild.AddTarget("updateVersionNumber", "Update version number", c
             var solutionDirectory = context.ConfigurationSettings.Get<String>("SolutionDirectory");
             const String assemblyMajorVersion = "1";
             const String assemblyMinorVersion = "0";
-            const String assemblyBuildNumber = "0";
+            const String assemblyBuildNumber = "1";
             var assemblyInfoTask = new AssemblyInfo
             {
                 AssemblyInfoFiles = new[]
@@ -93,7 +93,7 @@ dotNetBuild.AddTarget("publishPackage", "Publish NuGet package", c
 dotNetBuild.AddConfiguration("defaultConfig", c 
 	=> c.AddSetting("SolutionDirectory", @"..\")
         .AddSetting("PathToNuGetExe", @"packages\NuGet.CommandLine.2.8.2\tools\NuGet.exe")
-        .AddSetting("NuGetApiKey", "")
+        .AddSetting("NuGetApiKey", "b83c81a0-385f-4208-bc7f-f9fa2759c849")
 );
 
 dotNetBuild.RunFromScriptArguments();
